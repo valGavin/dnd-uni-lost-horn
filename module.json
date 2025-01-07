@@ -1,0 +1,108 @@
+{
+  "id": "dnd-uni-lost-horn",
+  "title": "Uni and the Hunt for the Lost Horn",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "dnd-players-handbook",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-dungeon-masters-guide",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p><i>Uni and the Hunt for the Lost Horn</i> is part of a yearlong celebration of Dungeons & Dragons and its 50th anniversary. The adventure presented herein involves characters from the beloved 1980s Dungeons & Dragons animated series.</p>",
+  "authors": [
+    {
+      "name": "Win Roedily",
+      "email": "valgavinproduction@gmail.com",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/valGavin/dnd-uni-lost-horn",
+  "manifest": "https://github.com/valGavin/dnd-uni-lost-horn/releases/latest/download/module.json",
+  "download": "https://github.com/valGavin/dnd-uni-lost-horn/releases/download/1.0/dnd-uni-lost-horn.zip",
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dnd-uni-lost-horn/assets/art/uni-and-the-hunt-for-the-lost-horn-cover.webp",
+      "thumbnail": "modules/dnd-uni-lost-horn/assets/art/uni-and-the-hunt-for-the-lost-horn-cover.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "uhlh-adventures",
+      "label": "Uni and the Hunt for the Lost Horn",
+      "path": "packs/uhlh-adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "uhlh-creatures",
+      "label": "Creatures",
+      "path": "packs/uhlh-creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "uhlh-characters",
+      "label": "Premade Characters",
+      "path": "packs/uhlh-characters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Uni and the Hunt for the Lost Horn",
+      "color": "#6d9ab2",
+      "sorting": "m",
+      "packs": [
+        "uhlh-adventures",
+        "uhlh-characters",
+        "uhlh-creatures"
+      ],
+      "folders": []
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "UHLH": "Uni and the Hunt for the Lost Horn"
+      }
+    }
+  }
+}
